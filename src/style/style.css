@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.design-manager {
+  margin-bottom: 100px;
+}
+
+.product-manager {
+  margin-bottom: 105px;
+}
+
+.marketers {
+  margin-bottom: 146px;
+}
+
+.professional__image-holder {
+  width: 50%;
+}
+
+.professional__text-holder {
+  width: 486px;
+}
+
+.professional__text-holder__pre-title {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 3px;
+}
+
+.professional__text-holder__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 22px;
+}
+
+.professional__text-holder__text {
+  margin-bottom: 30px;
+}
+
+.professional__text-holder__title-small {
+  margin-bottom: 12px;
+}
+
+.professional__text-holder__text-small {
+  margin-bottom: 25px;
+}
+
+.professional__text-holder__list {
+  list-style: none;
+  margin-left: 65px;
+}
+
+.professional__text-holder__list-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.professional__text-holder__list-item::before {
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 35px;
+  left: -65px;
+  top: 5px;
+  background-color: orange;
+  border-radius: 14px;
+}
+
+.professional__text-holder__list-item::after {
+  position: absolute;
+  content: "\2714";
+  color: white;
+  left: -53px;
+  top: 9px;
+}
